@@ -1,0 +1,17 @@
+#WAP for statistical operations and broadcasting in numpy
+import numpy as np
+a = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print("Array:")
+print(a)
+print("\nSum of elements:", np.sum(a))
+print("Mean of elements:", np.mean(a))
+print("Standard deviation of elements:", np.std(a))
+print("Variance of elements:", np.var(a))
+print("\nBroadcasting:")
+print("Add 10 to every element:")
+print(a + 10)
+print("\nMultiply every element by 2:")
+print(a * 2)
+r = np.array([10, 20, 30])
+print("\nAdd a row to each row of the array:")
+print(a + r)
